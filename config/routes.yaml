@@ -1,0 +1,4 @@
+##app/config/routing.yml
+#nelmio_api_swagger:
+#    resource: "@NelmioApiDocBundle/Resources/config/routing/swagger_routing.yml"
+#    prefix: /api-docs
