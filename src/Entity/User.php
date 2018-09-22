@@ -51,46 +51,46 @@ class User
         return $this->name;
     }
 
-    public function setName(string $mane): self
+    public function setName(string $name): self
     {
         $this->name = $name;
 
-        return $this;
-    }
+return $this;
+}
 
-    public function getSurname(): ?string
-    {
-        return $this->surname;
-    }
+public function getSurname(): ?string
+{
+    return $this->surname;
+}
 
-    public function setSurname(string $surname): self
-    {
-        $this->surname = $surname;
+public function setSurname(string $surname): self
+{
+    $this->surname = $surname;
 
-        return $this;
-    }
+    return $this;
+}
 
-    public function getTelephone(): ?string
-    {
-        return $this->telephone;
-    }
+public function getTelephone(): ?string
+{
+    return $this->telephone;
+}
 
-    public function setTelephone(string $telephone): self
-    {
-        $this->telephone = $telephone;
+public function setTelephone(string $telephone): self
+{
+    $this->telephone = $telephone;
 
-        return $this;
-    }
+    return $this;
+}
 
-    public function getAddress(): ?string
-    {
-        return $this->address;
-    }
+public function getAddress(): ?string
+{
+    return $this->address;
+}
 
-    public function setAddress(?string $address): self
-    {
-        $this->address = $address;
+public function setAddress(?string $address): self
+{
+    $this->address = $address;
 
-        return $this;
-    }
+    return $this;
+}
 }
