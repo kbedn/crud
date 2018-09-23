@@ -1,0 +1,7 @@
+\src\Entity\User:
+  # 5 users
+  user{1..5}:
+    name: <name()>
+    surname: <surname()>
+    telephone: <telephone()>
+    address: <address()>
